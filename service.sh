@@ -1,12 +1,8 @@
 #!/bin/bash
 
-export PATH=$GOROOT/bin:$PATH
-
-go get -u github.com/fvbock/endless
-go get -u github.com/gin-gonic/gin
-go get -u github.com/google/gops/agent
-go get -u github.com/itsjamie/gin-cors
-#go get -u xi2.org/x/logrot
+export PATH=/usr/local/go/bin:$PATH
+go mod init main
+go mod tidy
 go build main.go
 sleep 1
 nohup ./main &

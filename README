@@ -1,55 +1,55 @@
-Trivago - Trivago service installation
-======================================
+Finding cheapest hotel room service installation
+================================================
 
 1. The installation script is basically made for Linux operating system.
-2. All source code for this project contains under 82138226002 directory
+2. All source code for this project contains under find-cheap-hotel directory
 3. Project is implemented by Golang programming language.
 
 
 project Installation
 ====================
-1. make all command under project directory 82138226002 to install the
+1. make all command under find-cheap-hotel directory to install the
 whole project. make all command will do following operations.
 	1. Install go
-	2. Run trivago service on port 9000
+	2. Run service on port 9000
 	3. Run unit test
-	4. Call Trivago api
+	4. Call hotel api
 
 	command
 	-------
-	cd 82138226002
+	cd find-cheap-hotel
 	make all
 
 
-2. make up command under project directory 82138226002 to run the
+2. make up command under directory find-cheap-hotel to run the
 project without installing go, in case go already installed in the
 operating system. make up command will do following operations.
-	1. Run trivago service on port 9000
+	1. Run service on port 9000
 	2. Run unit test
-	3. Call Trivago api
+	3. Call hotel api
 	
 	command
 	-------
-	cd 82138226002
+	cd find-cheap-hotel
 	make up
 
 
 3. make service command to run Trivago service and unit test.
 	command
 	-------
-	cd 82138226002
+	cd find-cheap-hotel
 	make service
 	
 
 4. make callApi command to call the Trivago api
 	command
 	-------
-	cd 82138226002
+	cd find-cheap-hotel
 	make callApi
 
 
 5. make test command to run only unit test.
 	command
 	-------
-	cd 82138226002
+	cd find-cheap-hotel
 	make test
